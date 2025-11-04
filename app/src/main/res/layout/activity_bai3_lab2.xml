@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAFAFA"
+    android:padding="24dp"
+    tools:context=".Bai3_Lab2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BÀI TẬP 3 - GỌI ĐIỆN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0073b1"
+        android:layout_marginBottom="30dp" />
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_call"
+        android:contentDescription="Call icon"
+        android:backgroundTint="#4CAF50"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ĐẶNG NGỌC KHUÊ - 1150070024"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:layout_marginTop="30dp" />
+
+
+</LinearLayout>

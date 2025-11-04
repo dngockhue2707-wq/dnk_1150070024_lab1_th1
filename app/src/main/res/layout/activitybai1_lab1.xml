@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FAFAFA"
+    tools:context=".Bai1_lab1Activity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:text="MÁY TÍNH CƠ BẢN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0073b1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edtA"
+        android:hint="Nhập số A"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FFFFFF"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edtB"
+        android:hint="Nhập số B"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#FFFFFF"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnCong"
+            android:text="+"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4CAF50"
+            android:layout_margin="6dp" />
+
+        <Button
+            android:id="@+id/btnTru"
+            android:text="-"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F44336"
+            android:layout_margin="6dp" />
+
+        <Button
+            android:id="@+id/btnNhan"
+            android:text="×"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_margin="6dp" />
+
+        <Button
+            android:id="@+id/btnChia"
+            android:text="÷"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF9800"
+            android:layout_margin="6dp" />
+
+        <Button
+            android:id="@+id/btnChiaDu"
+            android:text="%"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#9C27B0"
+            android:layout_margin="6dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtKQ"
+        android:text="Kết quả sẽ hiển thị ở đây"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:text="Đặng Ngọc Khuê- 1150070024"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_gravity="end"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
